@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="swipe_image_height">180dp</dimen>
+    <dimen name="tab_title_size">12sp</dimen>
+    <bool name="small_screen">false</bool>
+</resources>

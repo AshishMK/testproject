@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="facebook_app_id">532596350254471</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_network">No network connection available</string>
+    <string name="error">Error</string>
+    <string name="tab_login">SIGN IN</string>
+    <string name="tab_register">REGISTER</string>
+    <string name="submit">Submit</string>
+    <string name="tab_update">Update</string>
+    <string name="email_num">EMAIL ID OR NUMBER</string>
+    <string name="password">PASSWORD</string>
+    <string name="pass_msg">" Password should be 6 character long"</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="fb">Facebook</string>
+    <string name="google">Google</string>
+    <string name="change_pass">Change Password</string>
+    <string name="oldPass">Old Password</string>
+    <string name="newPass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="app_update">This version of Recharge Gig became absolete on <b>Jan 18, 2016</b> Please go to the Google Play Store to download latest version.\n \nYour devices date is <b>Nov 30,2016</b>.If this is incorrect please correct your device\'s date settings then restart Recharge Gig.</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="ph_num">MOBILE NUMBER</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="search">Search</string>
+    <string name="no_search">No Search result found</string>
+    <string name="mail_msg">Please enter valid e-mail</string>
+    <string name="pass_msg1">Please enter valid password</string>
+    <string name="phone_msg">Please enter valid mobile number</string>
+    <string name="name_msg">Please enter a name</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_title_size">10sp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1_minus_8dp">8dp</dimen>
+    <dimen name="keyline_12dp">12dp</dimen>
+    <dimen name="keyline_0">0dp</dimen>
+    <dimen name="keyline_0_plus_4_dp">4dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_2_minus_16dp">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_right">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="swipe_image_height">130dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="app_bar_height2">300dp</dimen>
+    <bool name="small_screen">true</bool>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>
