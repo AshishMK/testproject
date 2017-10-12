@@ -7,6 +7,7 @@
     <string name="error">Error</string>
     <string name="tab_login">SIGN IN</string>
     <string name="tab_register">REGISTER</string>
+    <string name="check_network">Please check your network connection</string>
     <string name="submit">Submit</string>
     <string name="tab_update">Update</string>
     <string name="email_num">EMAIL ID OR NUMBER</string>
@@ -31,4 +32,5 @@
     <string name="pass_msg1">Please enter valid password</string>
     <string name="phone_msg">Please enter valid mobile number</string>
     <string name="name_msg">Please enter a name</string>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
 </resources>

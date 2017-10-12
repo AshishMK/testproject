@@ -1,0 +1,84 @@
+/*Things to remember
+1-:use this to init fb sdk
+        FacebookSdk.sdkInitialize(getApplicationContext());
+
+2-:you get fb profile name dp by new ProfileTracker()
+but you have to listen it like this
+                      mProfileTracker = new ProfileTracker() {
+                                @Override
+                                protected void onCurrentProfileChanged(Profile oldProfile, Profile currentProfile) {
+
+                                    //        initProfileFb();
+                                    mProfileTracker.stopTracking();
+                                }
+                            };
+
+
+3-:for both gplus and facebook override onActivity result
+ @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == G_LOGIN) {
+            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            handleSignInResult(result);
+        }
+    }
+
+4-: for fb do this at manifest
+    <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+            **       under application tag***
+            and at String.xml
+               <string name="facebook_app_id">532596350254471</string>
+               you have to create app at facebook developer dashbord
+               as it needed unique key has
+             GetFBHash will provide you the debug key hash
+
+5-:  compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+compile 'com.google.android.gms:play-services-auth:9.4.0'
+
+
+ 6-:    <service android:name=".MyFirebaseMessagingService">
+                <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+            <service android:name=".MyFirebaseInstanceIDService">
+                <intent-filter>
+                    <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                </intent-filter>
+            </service>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
